@@ -1,0 +1,16 @@
+var NAVTREEINDEX0 = {
+'../../../inet4.5/doc/neddoc/index.html':[8],
+'index.html':[0],
+'ned.DatarateChannel.html':[1, 0, 0],
+'ned.DelayChannel.html':[1, 0, 1],
+'ned.IBidirectionalChannel.html':[1, 0, 2],
+'ned.IUnidirectionalChannel.html':[1, 0, 4],
+'ned.IdealChannel.html':[1, 0, 3],
+'packages.html':[1],
+'packages.html#ned':[1, 0],
+'packages.html#piwinetwork_simulations':[1, 1],
+'piwinetwork.simulations.WirelessA.html':[1, 1, 0],
+'simulations-WirelessA.ned.html':[6, 1],
+'simulations-package.ned.html':[6, 0],
+'src-package.ned.html':[6, 2],
+};
