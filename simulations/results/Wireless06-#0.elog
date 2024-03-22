@@ -1,0 +1,78 @@
+SB ov 1536 ev 2 rid Wireless06-0-20240322-11:37:25-15488
+
+S f 58 # -1 t -1
+MF id 1 c omnetpp::cModule t piwinetwork.simulations.WirelessB n WirelessB cm 1 # 0 ei 0
+MDF id 1 d bgb=650,500;bgg=100,1,grey95 # -9223358695937714274 ei 0
+MF id 2 c omnetpp::cModule t inet.visualizer.canvas.integrated.IntegratedCanvasVisualizer pid 1 n visualizer cm 1 # 0 ei 0
+MDF id 2 d p=580,125;i=block/app # -9223358695937714274 ei 0
+MF id 10 c inet::visualizer::SceneCanvasVisualizer t inet.visualizer.canvas.scene.SceneCanvasVisualizer pid 2 n sceneVisualizer # 0 ei 0
+MDF id 10 d p=150,100;i=block/app # -9223358695937714274 ei 0
+MF id 11 c inet::visualizer::PhysicalEnvironmentCanvasVisualizer t inet.visualizer.canvas.environment.PhysicalEnvironmentCanvasVisualizer pid 2 n physicalEnvironmentVisualizer # 0 ei 0
+MDF id 11 d p=150,200;i=block/app # -9223358695937714274 ei 0
+MF id 12 c inet::visualizer::NetworkNodeCanvasVisualizer t inet.visualizer.canvas.scene.NetworkNodeCanvasVisualizer pid 2 n networkNodeVisualizer # 0 ei 0
+MDF id 12 d p=150,300;i=block/app # -9223358695937714274 ei 0
+MF id 13 c inet::visualizer::NetworkConnectionCanvasVisualizer t inet.visualizer.canvas.scene.NetworkConnectionCanvasVisualizer pid 2 n networkConnectionVisualizer # 0 ei 0
+MDF id 13 d p=150,400;i=block/app # -9223358695937714274 ei 0
+MF id 14 c inet::visualizer::MobilityCanvasVisualizer t inet.visualizer.canvas.mobility.MobilityCanvasVisualizer pid 2 n mobilityVisualizer # 0 ei 0
+MDF id 14 d p=150,500;i=block/app # -9223358695937714274 ei 0
+MF id 15 c inet::visualizer::StatisticCanvasVisualizer t inet.visualizer.canvas.common.StatisticCanvasVisualizer pid 2 n statisticVisualizer # 0 ei 0
+MDF id 15 d p=150,600;i=block/app # -9223358695937714274 ei 0
+MF id 16 c inet::visualizer::InfoCanvasVisualizer t inet.visualizer.canvas.common.InfoCanvasVisualizer pid 2 n infoVisualizer # 0 ei 0
+MDF id 16 d p=150,700;i=block/app # -9223358695937714274 ei 0
+MF id 17 c inet::visualizer::EnergyStorageCanvasVisualizer t inet.visualizer.canvas.power.EnergyStorageCanvasVisualizer pid 2 n energyStorageVisualizer # 0 ei 0
+MDF id 17 d p=150,800;i=block/app # -9223358695937714274 ei 0
+MF id 18 c inet::visualizer::MediumCanvasVisualizer t inet.visualizer.canvas.physicallayer.MediumCanvasVisualizer pid 2 n mediumVisualizer # 0 ei 0
+MDF id 18 d p=150,900;i=block/app # -9223358695937714274 ei 0
+MF id 19 c inet::visualizer::TracingObstacleLossCanvasVisualizer t inet.visualizer.canvas.physicallayer.TracingObstacleLossCanvasVisualizer pid 2 n obstacleLossVisualizer # 0 ei 0
+MDF id 19 d p=150,1000;i=block/app # -9223358695937714274 ei 0
+MF id 20 c inet::visualizer::PacketDropCanvasVisualizer t inet.visualizer.canvas.common.PacketDropCanvasVisualizer pid 2 n packetDropVisualizer # 0 ei 0
+MDF id 20 d p=150,1100;i=block/app # -9223358695937714274 ei 0
+MF id 21 c inet::visualizer::PacketFlowCanvasVisualizer t inet.visualizer.canvas.flow.PacketFlowCanvasVisualizer pid 2 n packetFlowVisualizer # 0 ei 0
+MDF id 21 d p=150,1200;i=block/app # -9223358695937714274 ei 0
+MF id 22 c inet::visualizer::QueueCanvasVisualizer t inet.visualizer.canvas.common.QueueCanvasVisualizer pid 2 n queueVisualizer # 0 ei 0
+MDF id 22 d p=450,100;i=block/app # -9223358695937714274 ei 0
+MF id 23 c inet::visualizer::GateScheduleCanvasVisualizer t inet.visualizer.canvas.common.GateScheduleCanvasVisualizer pid 2 n gateScheduleVisualizer # 0 ei 0
+MDF id 23 d p=450,200;i=block/app # -9223358695937714274 ei 0
+MF id 24 c inet::visualizer::RadioCanvasVisualizer t inet.visualizer.canvas.physicallayer.RadioCanvasVisualizer pid 2 n radioVisualizer # 0 ei 0
+MDF id 24 d p=450,300;i=block/app # -9223358695937714274 ei 0
+MF id 25 c inet::visualizer::PhysicalLinkCanvasVisualizer t inet.visualizer.canvas.physicallayer.PhysicalLinkCanvasVisualizer pid 2 n physicalLinkVisualizer # 0 ei 0
+MDF id 25 d p=450,400;i=block/app # -9223358695937714274 ei 0
+MF id 26 c inet::visualizer::InterfaceTableCanvasVisualizer t inet.visualizer.canvas.linklayer.InterfaceTableCanvasVisualizer pid 2 n interfaceTableVisualizer # 0 ei 0
+MDF id 26 d p=450,500;i=block/app # -9223358695937714274 ei 0
+MF id 27 c inet::visualizer::DataLinkCanvasVisualizer t inet.visualizer.canvas.linklayer.DataLinkCanvasVisualizer pid 2 n dataLinkVisualizer # 0 ei 0
+MDF id 27 d p=450,600;i=block/app # -9223358695937714274 ei 0
+MF id 28 c inet::visualizer::LinkBreakCanvasVisualizer t inet.visualizer.canvas.linklayer.LinkBreakCanvasVisualizer pid 2 n linkBreakVisualizer # 0 ei 0
+MDF id 28 d p=450,700;i=block/app # -9223358695937714274 ei 0
+MF id 29 c inet::visualizer::Ieee80211CanvasVisualizer t inet.visualizer.canvas.linklayer.Ieee80211CanvasVisualizer pid 2 n ieee80211Visualizer # 0 ei 0
+MDF id 29 d p=450,800;i=block/app # -9223358695937714274 ei 0
+MF id 30 c inet::visualizer::NetworkRouteCanvasVisualizer t inet.visualizer.canvas.networklayer.NetworkRouteCanvasVisualizer pid 2 n networkRouteVisualizer # 0 ei 0
+MDF id 30 d p=450,900;i=block/app # -9223358695937714274 ei 0
+MF id 31 c inet::visualizer::RoutingTableCanvasVisualizer t inet.visualizer.canvas.networklayer.RoutingTableCanvasVisualizer pid 2 n routingTableVisualizer # 0 ei 0
+MDF id 31 d p=450,1000;i=block/app # -9223358695937714274 ei 0
+MF id 32 c inet::visualizer::TransportRouteCanvasVisualizer t inet.visualizer.canvas.transportlayer.TransportRouteCanvasVisualizer pid 2 n transportRouteVisualizer # 0 ei 0
+MDF id 32 d p=450,1100;i=block/app # -9223358695937714274 ei 0
+MF id 33 c inet::visualizer::TransportConnectionCanvasVisualizer t inet.visualizer.canvas.transportlayer.TransportConnectionCanvasVisualizer pid 2 n transportConnectionVisualizer # 0 ei 0
+MDF id 33 d p=450,1200;i=block/app # -9223358695937714274 ei 0
+MF id 34 c inet::visualizer::FailureProtectionConfigurationCanvasVisualizer t inet.visualizer.canvas.configurator.FailureProtectionConfigurationCanvasVisualizer pid 2 n failureProtectionConfigurationVisualizer # 0 ei 0
+MDF id 34 d p=750,100;i=block/app # -9223358695937714274 ei 0
+MF id 35 c inet::visualizer::StreamRedundancyConfigurationCanvasVisualizer t inet.visualizer.canvas.configurator.StreamRedundancyConfigurationCanvasVisualizer pid 2 n streamRedundancyConfigurationVisualizer # 0 ei 0
+MDF id 35 d p=750,200;i=block/app # -9223358695937714274 ei 0
+MF id 3 c inet::Ipv4NetworkConfigurator t inet.networklayer.configurator.ipv4.Ipv4NetworkConfigurator pid 1 n configurator # 0 ei 0
+MDF id 3 d p=580,200;i=block/cogwheel # -9223358695937714274 ei 0
+MF id 4 c inet::physicallayer::RadioMedium t inet.physicallayer.wireless.unitdisk.UnitDiskRadioMedium pid 1 n radioMedium cm 1 # 0 ei 0
+MDF id 4 d p=580,275;i=misc/sun # -9223358695937714274 ei 0
+MF id 36 c inet::physicallayer::ConstantSpeedPropagation t inet.physicallayer.wireless.common.propagation.ConstantSpeedPropagation pid 4 n propagation cm 1 # 0 ei 0
+MDF id 36 d p=100,100;i=block/timer # -9223358695937714274 ei 0
+MF id 37 c inet::physicallayer::UnitDiskAnalogModel t inet.physicallayer.wireless.unitdisk.UnitDiskAnalogModel pid 4 n analogModel cm 1 # 0 ei 0
+MDF id 37 d p=100,200;i=block/tunnel # -9223358695937714274 ei 0
+MF id 38 c inet::physicallayer::FreeSpacePathLoss t inet.physicallayer.wireless.common.pathloss.FreeSpacePathLoss pid 4 n pathLoss cm 1 # 0 ei 0
+MDF id 38 d p=300,100;i=block/control # -9223358695937714274 ei 0
+MF id 39 c inet::physicallayer::MediumLimitCache t inet.physicallayer.wireless.common.medium.MediumLimitCache pid 4 n mediumLimitCache cm 1 # 0 ei 0
+MDF id 39 d p=500,100;i=block/table2 # -9223358695937714274 ei 0
+MF id 40 c inet::physicallayer::VectorCommunicationCache t inet.physicallayer.wireless.common.communicationcache.VectorCommunicationCache pid 4 n communicationCache cm 1 # 0 ei 0
+MDF id 40 d p=500,300;i=block/table2 # -9223358695937714274 ei 0
+MF id 5 c inet::NodeBase t inet.node.inet.WirelessHost pid 1 n hostA cm 1 # 0 ei 0
+GF m 5 g 1048576 n radioIn i 0 o 0 # 0 ei 0
+MDF id 5 d a=0.000000;p=50.000000,325.000000;i=device/wifilaptop;bgb=1256,1125 # -9223358695937714274 ei 0
+MF id 41 c inet::StationaryMobility t inet.mobility.static.StationaryMobility pid 5 n mobility # 0 ei 0
+MDF id 41 d "t=p: (50\\, 325\\, 0) m\nv: (0\\, 0\\, 0) m;is=s;p=125,100;i=block/cog
