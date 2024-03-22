@@ -14,10 +14,6 @@
 // 
 
 package piwinetwork.simulations;
-import inet.networklayer.configurator.ipv4.Ipv4NetworkConfigurator;
-import inet.node.contract.INetworkNode;
-import inet.visualizer.contract.IIntegratedVisualizer;
-
 
 import inet.networklayer.configurator.ipv4.Ipv4NetworkConfigurator;
 import inet.node.contract.INetworkNode;
@@ -49,8 +45,4 @@ network WirelessA
         hostB: <default("WirelessHost")> like INetworkNode {
             @display("p=450,325");
         }
-        hostC: <default("WirelessHost")> like INetworkNode {
-            @display("p=143.136,413.28");
-        }
-
 }
